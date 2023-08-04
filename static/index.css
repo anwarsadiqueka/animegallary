@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+.header{
+    height: 3.5rem;
+    background: #0b0b0b;
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 4rem;
+}
+.header ul{
+    display: flex;
+    gap:3rem;
+    list-style: none;
+}
+.header ul a{
+    text-decoration: none;
+    color:white;
+}
+.content{
+     background-image: url("akt.jpg");
+height:100vh ;
+width: 100%;
+background-size: cover;
+background-position: center;
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+gap:5rem;
+padding: 70px 0;
+}
+.image-section img{
+width:400px;
+height: 200px;
+border-radius: 10px;
+box-shadow: 2px 3px 10px white;
+
+
+}
